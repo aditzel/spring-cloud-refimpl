@@ -10,7 +10,7 @@
 
     <groupId>com.allanditzel.spring.cloud.ri</groupId>
     <artifactId>root</artifactId>
-    <version>master-SNAPSHOT</version>
+    <version>develop-SNAPSHOT</version>
 
     <name>Spring Cloud RI :: Project Root</name>
     <description>Spring Cloud Reference Implementation.</description>
