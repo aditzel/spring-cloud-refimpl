@@ -23,8 +23,8 @@ reference. Currently there is only poms/microservices/pom.xml, which is to be us
 * service-discovery: This module is a Eureka based service discovery server. It uses the Spring Cloud wrappers around 
 Eureka and does not require any other microservice to be running.
 
-The above projects all have an embedded Hystrix dashboard enabled, available at http://localhost:&#gt;port&#lt;/hystrix, you can then 
-enter http://localhost:&#gt;port&#lt;/hystrix.streams in the input fields to view the hystrix stats for that microservice.
+The above projects all have an embedded Hystrix dashboard enabled, available at http://localhost:&lt;port&gt;/hystrix, you can then 
+enter http://localhost:&lt;port&gt;/hystrix.streams in the input fields to view the hystrix stats for that microservice.
 
 ## Building The Project
 
