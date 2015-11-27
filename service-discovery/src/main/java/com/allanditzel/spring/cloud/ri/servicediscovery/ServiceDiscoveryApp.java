@@ -1,20 +1,17 @@
-package com.allanditzel.spring.cloud.ri.edgeserver;
+package com.allanditzel.spring.cloud.ri.servicediscovery;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
-import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 
-/**
- * Created by tde900 on 11/23/15.
- */
 @SpringBootApplication
-@EnableZuulProxy
-@EnableHystrixDashboard
+@EnableEurekaServer
 @EnableHystrix
-public class EdgeServerApp {
+@EnableHystrixDashboard
+public class ServiceDiscoveryApp {
     public static void main(String[] args) {
-        SpringApplication.run(EdgeServerApp.class, args);
+        SpringApplication.run(ServiceDiscoveryApp.class, args);
     }
 }

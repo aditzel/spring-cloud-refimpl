@@ -9,15 +9,15 @@
         <relativePath>../poms/microservices/pom.xml</relativePath>
     </parent>
 
-    <artifactId>edge-server</artifactId>
+    <artifactId>service-discovery</artifactId>
 
-    <name>Spring Cloud RI :: Edge Server</name>
-    <description>Edge Server</description>
+    <name>Spring Cloud RI :: Service Discovery Service</name>
+    <description>Service Discover Service</description>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-zuul</artifactId>
+            <artifactId>spring-cloud-starter-eureka-server</artifactId>
         </dependency>
     </dependencies>
 </project>
