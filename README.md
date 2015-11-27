@@ -4,7 +4,7 @@ This project is an exercise in building a Spring Boot + Spring Cloud + Netflix O
 
 ## Tech Stack
 
-* Spring Boot 1.3.0 
+* Spring Boot 1.2.7 (See root pom.xml for explanations of why I'm not using a newer version of Spring Boot). 
 
 ## Development Environment Requirements
 

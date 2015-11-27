@@ -16,7 +16,7 @@
     <packaging>pom</packaging>
 
     <properties>
-        <spring-cloud-config.version>Angel.SR3</spring-cloud-config.version>
+        <spring-cloud-config.version>Angel.SR4</spring-cloud-config.version>
     </properties>
 
     <dependencyManagement>
