@@ -1,4 +1,8 @@
 spring:
     application:
-        name: edge-server
-
+        name: edgeserver
+    cloud:
+      config:
+        discovery:
+          enabled: true
+          service-id: config-service

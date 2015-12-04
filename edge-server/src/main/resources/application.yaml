@@ -1,8 +1,0 @@
-zuul:
-  routes:
-    users:
-      path: /webapp/**
-      serviceId: server-web-ui
-eureka:
-  instance:
-    instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
