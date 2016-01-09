@@ -30,6 +30,7 @@
         <module>edge-server</module>
         <module>service-discovery</module>
         <module>poms/microservices</module>
+        <module>webapp</module>
     </modules>
 
     <properties>

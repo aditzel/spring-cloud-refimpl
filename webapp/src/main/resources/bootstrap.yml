@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: webapp
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: configservice

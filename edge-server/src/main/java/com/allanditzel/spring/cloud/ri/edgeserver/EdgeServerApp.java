@@ -11,7 +11,7 @@ import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 import org.springframework.context.annotation.Import;
 
 /**
- * Created by tde900 on 11/23/15.
+ * Created by Allan on 11/23/15.
  */
 @SpringBootApplication
 @EnableZuulProxy

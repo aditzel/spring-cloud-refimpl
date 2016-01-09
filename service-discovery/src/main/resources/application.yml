@@ -14,4 +14,4 @@ spring:
   cloud:
     config:
       discovery:
-        service-id: config-service
+        service-id: configservice
