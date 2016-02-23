@@ -15,22 +15,6 @@
     <description>Services Parent Pom.</description>
     <packaging>pom</packaging>
 
-    <properties>
-        <spring-cloud-config.version>Angel.SR4</spring-cloud-config.version>
-    </properties>
-
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-starter-parent</artifactId>
-                <version>${spring-cloud-config.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
