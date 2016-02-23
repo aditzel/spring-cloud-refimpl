@@ -1,4 +1,4 @@
 spring:
   application:
-    name: configservice
+    name: configservice-${spring.profiles.active:local}
 
