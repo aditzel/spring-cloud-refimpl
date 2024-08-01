@@ -15,7 +15,7 @@
     <description>Webapp Server</description>
 
     <properties>
-        <webjar.bootstrap.version>3.3.4</webjar.bootstrap.version>
+        <webjar.bootstrap.version>3.4.1</webjar.bootstrap.version>
         <webjar.jquery.version>2.1.4</webjar.jquery.version>
     </properties>
 
